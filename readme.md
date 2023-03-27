@@ -36,4 +36,12 @@
 
 ### toString (인스턴스 출력 양식)
 <img width="470" alt="스크린샷 2023-03-27 오후 3 19 47" src="https://user-images.githubusercontent.com/114221785/227856842-f6d2092c-8e67-4cac-b17f-6803a491a158.png">
-- 스택의 담겨있는 자료를 출력하는 
+- 스택의 담겨있는 자료를 출력하는 기능
+
+## 링크드리스트로 구현한 스택 자료구조 코드 설명
+### 코드
+<img width="503" alt="스크린샷 2023-03-27 오후 3 26 07" src="https://user-images.githubusercontent.com/114221785/227857991-fcd20ad5-f62b-4228-8919-272bdd0b6386.png">
+- push: 링크드 리스트의 AddFirst로 리스트의 제일 처음부분에 데이터 추가
+- pop: 링크드 리스트의 제일 처음부분이 제일 최근에 삽입된 데이터이므로 RemoveFirst
+- 삭제된 값 리턴
+- isEmpty: 링크드리스트의 사이즈가 0이면 true 반환
